@@ -1,15 +1,44 @@
 <!DOCTYPE html>
 <html lang="en" translate="no">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <script defer type="module" src="/main.js"></script>
+    <link rel="stylesheet" href="styles/main.css" />
     <title>TechNarts Frontend Challenge: Font Fountain</title>
   </head>
 
   <body>
-    <div id="App">
-      <!-- Here comes your masterpiece of engineering and art. -->
-    </div>
+    <header class="header">
+      <h1>Font Fountain</h1>
+    </header>
+
+    <main>
+      <div class="firstPartDiv">
+        <div class="fontPreDiv">
+          <textarea
+            id="fontPreviewText"
+            placeholder="Enter your text"
+            rows="1"
+          ></textarea>
+          <div class="slider-container">
+            <input
+              type="range"
+              id="fontSizeSlider"
+              min="10"
+              max="50"
+              value="16"
+            />
+          </div>
+        </div>
+        <div id="fontText"></div>
+      </div>
+
+      <div class="secontPartDiv">
+        <div class="fontListDiv">
+          <h2>Font List</h2>
+          <div class="fontGrid" id="fontGrid"></div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
-

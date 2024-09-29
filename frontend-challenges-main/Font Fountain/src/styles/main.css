@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  color: blue;
+}
+
+main {
+  background-color: rgb(84, 187, 247);
+  padding: 4rem;
+  height: auto;
+}
+
+.firstPartDiv {
+  /* display: flex; */
+  /* flex-direction: column; */
+  width: 100%;
+  height: 400px;
+  /* justify-content: center; 
+   align-items: center;  */
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.fontPreDiv {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#fontPreviewText {
+  border-radius: 40px;
+  padding: 1rem 0.5rem;
+  width: 70%;
+  max-width: 750px;
+  resize: none;
+  overflow: hidden;
+}
+
+.secondPartDiv {
+  width: 100%;
+  height: 300px;
+  color: white;
+}
+
+.fontGrid {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: white;
+  padding: 2rem;
+}
+
+.fontItem {
+  background-color: white;
+  border-bottom: 1px solid black;
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+.fontItem:hover {
+  background-color: rgba(211, 210, 210, 0.6);
+  cursor: pointer;
+}
+
+.slider-container {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.fontName {
+  font-size: 14px;
+  color: bisque;
+}
+
+.fontExample {
+  font-size: 24px;
+  /* margin-bottom: 5px; */
+}
