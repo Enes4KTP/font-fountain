@@ -1,0 +1,842 @@
+@font-face {
+    font-family: "Creepster";
+    src: url("Creepster-Regular.eot");
+    src: local("Creepster"), local("Creepster-Regular"),
+      url("Creepster-Regular.eot?#iefix") format("embedded-opentype"),
+      url("Creepster-Regular.woff2") format("woff2"),
+      url("Creepster-Regular.woff") format("woff"),
+      url("Creepster-Regular.ttf") format("truetype"),
+      url("Creepster-Regular.svg#Creepster-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Monoton";
+    src: url("Monoton-Regular.eot");
+    src: local("Monoton"), local("Monoton-Regular"),
+      url("Monoton-Regular.eot?#iefix") format("embedded-opentype"),
+      url("Monoton-Regular.woff2") format("woff2"),
+      url("Monoton-Regular.woff") format("woff"),
+      url("Monoton-Regular.ttf") format("truetype"),
+      url("Monoton-Regular.svg#Monoton-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Bungee Tint";
+    src: url("BungeeTint-Regular.eot");
+    src: local("Bungee Tint Regular"), local("BungeeTint-Regular"),
+      url("BungeeTint-Regular.eot?#iefix") format("embedded-opentype"),
+      url("BungeeTint-Regular.woff2") format("woff2"),
+      url("BungeeTint-Regular.woff") format("woff"),
+      url("BungeeTint-Regular.ttf") format("truetype"),
+      url("BungeeTint-Regular.svg#BungeeTint-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Caveat";
+    src: url("Caveat-Regular.eot");
+    src: local("Caveat Regular"), local("Caveat-Regular"),
+      url("Caveat-Regular.eot?#iefix") format("embedded-opentype"),
+      url("Caveat-Regular.woff2") format("woff2"),
+      url("Caveat-Regular.woff") format("woff"),
+      url("Caveat-Regular.ttf") format("truetype"),
+      url("Caveat-Regular.svg#Caveat-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Caveat Brush";
+    src: url("CaveatBrush-Regular.eot");
+    src: local("Caveat Brush"), local("CaveatBrush-Regular"),
+      url("CaveatBrush-Regular.eot?#iefix") format("embedded-opentype"),
+      url("CaveatBrush-Regular.woff2") format("woff2"),
+      url("CaveatBrush-Regular.woff") format("woff"),
+      url("CaveatBrush-Regular.ttf") format("truetype"),
+      url("CaveatBrush-Regular.svg#CaveatBrush-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Baskervville SC";
+    src: url("BaskervvilleSC-Regular.eot");
+    src: local("Baskervville SC Regular"), local("BaskervvilleSC-Regular"),
+      url("BaskervvilleSC-Regular.eot?#iefix") format("embedded-opentype"),
+      url("BaskervvilleSC-Regular.woff2") format("woff2"),
+      url("BaskervvilleSC-Regular.woff") format("woff"),
+      url("BaskervvilleSC-Regular.ttf") format("truetype"),
+      url("BaskervvilleSC-Regular.svg#BaskervvilleSC-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Chewy";
+    src: url("Chewy-Regular.eot");
+    src: local("Chewy Regular"), local("Chewy-Regular"),
+      url("Chewy-Regular.eot?#iefix") format("embedded-opentype"),
+      url("Chewy-Regular.woff2") format("woff2"),
+      url("Chewy-Regular.woff") format("woff"),
+      url("Chewy-Regular.ttf") format("truetype"),
+      url("Chewy-Regular.svg#Chewy-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Bebas Neue";
+    src: url("BebasNeue-Regular.eot");
+    src: local("Bebas Neue Regular"), local("BebasNeue-Regular"),
+      url("BebasNeue-Regular.eot?#iefix") format("embedded-opentype"),
+      url("BebasNeue-Regular.woff2") format("woff2"),
+      url("BebasNeue-Regular.woff") format("woff"),
+      url("BebasNeue-Regular.ttf") format("truetype"),
+      url("BebasNeue-Regular.svg#BebasNeue-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Berkshire Swash";
+    src: url("BerkshireSwash-Regular.eot");
+    src: local("Berkshire Swash Regular"), local("BerkshireSwash-Regular"),
+      url("BerkshireSwash-Regular.eot?#iefix") format("embedded-opentype"),
+      url("BerkshireSwash-Regular.woff2") format("woff2"),
+      url("BerkshireSwash-Regular.woff") format("woff"),
+      url("BerkshireSwash-Regular.ttf") format("truetype"),
+      url("BerkshireSwash-Regular.svg#BerkshireSwash-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Dancing Script";
+    src: url("DancingScript-Regular.eot");
+    src: local("Dancing Script Regular"), local("DancingScript-Regular"),
+      url("DancingScript-Regular.eot?#iefix") format("embedded-opentype"),
+      url("DancingScript-Regular.woff2") format("woff2"),
+      url("DancingScript-Regular.woff") format("woff"),
+      url("DancingScript-Regular.ttf") format("truetype"),
+      url("DancingScript-Regular.svg#DancingScript-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Black Ops One";
+    src: url("BlackOpsOne-Regular.eot");
+    src: local("Black Ops One Regular"), local("BlackOpsOne-Regular"),
+      url("BlackOpsOne-Regular.eot?#iefix") format("embedded-opentype"),
+      url("BlackOpsOne-Regular.woff2") format("woff2"),
+      url("BlackOpsOne-Regular.woff") format("woff"),
+      url("BlackOpsOne-Regular.ttf") format("truetype"),
+      url("BlackOpsOne-Regular.svg#BlackOpsOne-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Fira Code";
+    src: url("FiraCode-Light.eot");
+    src: local("Fira Code Light"), local("FiraCode-Light"),
+      url("FiraCode-Light.eot?#iefix") format("embedded-opentype"),
+      url("FiraCode-Light.woff2") format("woff2"),
+      url("FiraCode-Light.woff") format("woff"),
+      url("FiraCode-Light.ttf") format("truetype"),
+      url("FiraCode-Light.svg#FiraCode-Light") format("svg");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Fugaz One";
+    src: url("FugazOne-Regular.eot");
+    src: local("Fugaz One"), local("FugazOne-Regular"),
+      url("FugazOne-Regular.eot?#iefix") format("embedded-opentype"),
+      url("FugazOne-Regular.woff2") format("woff2"),
+      url("FugazOne-Regular.woff") format("woff"),
+      url("FugazOne-Regular.ttf") format("truetype"),
+      url("FugazOne-Regular.svg#FugazOne-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Gochi Hand";
+    src: url("GochiHand-Regular.eot");
+    src: local("Gochi Hand"), local("GochiHand-Regular"),
+      url("GochiHand-Regular.eot?#iefix") format("embedded-opentype"),
+      url("GochiHand-Regular.woff2") format("woff2"),
+      url("GochiHand-Regular.woff") format("woff"),
+      url("GochiHand-Regular.ttf") format("truetype"),
+      url("GochiHand-Regular.svg#GochiHand-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Edu AU VIC WA NT Guides";
+    src: url("EduAUVICWANTGuides-Regular.eot");
+    src: local("Edu AU VIC WA NT Guides Regular"),
+      local("EduAUVICWANTGuides-Regular"),
+      url("EduAUVICWANTGuides-Regular.eot?#iefix") format("embedded-opentype"),
+      url("EduAUVICWANTGuides-Regular.woff2") format("woff2"),
+      url("EduAUVICWANTGuides-Regular.woff") format("woff"),
+      url("EduAUVICWANTGuides-Regular.ttf") format("truetype"),
+      url("EduAUVICWANTGuides-Regular.svg#EduAUVICWANTGuides-Regular")
+        format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Fredoka";
+    src: url("Fredoka-Light.eot");
+    src: local("Fredoka Light"), local("Fredoka-Light"),
+      url("Fredoka-Light.eot?#iefix") format("embedded-opentype"),
+      url("Fredoka-Light.woff2") format("woff2"),
+      url("Fredoka-Light.woff") format("woff"),
+      url("Fredoka-Light.ttf") format("truetype"),
+      url("Fredoka-Light.svg#Fredoka-Light") format("svg");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Jacquarda Bastarda 9";
+    src: url("JacquardaBastarda9-Regular.eot");
+    src: local("Jacquarda Bastarda 9 Regular"),
+      local("JacquardaBastarda9-Regular"),
+      url("JacquardaBastarda9-Regular.eot?#iefix") format("embedded-opentype"),
+      url("JacquardaBastarda9-Regular.woff2") format("woff2"),
+      url("JacquardaBastarda9-Regular.woff") format("woff"),
+      url("JacquardaBastarda9-Regular.ttf") format("truetype"),
+      url("JacquardaBastarda9-Regular.svg#JacquardaBastarda9-Regular")
+        format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Jersey 25";
+    src: url("Jersey25-Regular.eot");
+    src: local("Jersey 25 Regular"), local("Jersey25-Regular"),
+      url("Jersey25-Regular.eot?#iefix") format("embedded-opentype"),
+      url("Jersey25-Regular.woff2") format("woff2"),
+      url("Jersey25-Regular.woff") format("woff"),
+      url("Jersey25-Regular.ttf") format("truetype"),
+      url("Jersey25-Regular.svg#Jersey25-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Leckerli One";
+    src: url("LeckerliOne-Regular.eot");
+    src: local("Leckerli One"), local("LeckerliOne-Regular"),
+      url("LeckerliOne-Regular.eot?#iefix") format("embedded-opentype"),
+      url("LeckerliOne-Regular.woff2") format("woff2"),
+      url("LeckerliOne-Regular.woff") format("woff"),
+      url("LeckerliOne-Regular.ttf") format("truetype"),
+      url("LeckerliOne-Regular.svg#LeckerliOne-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Julee";
+    src: url("Julee-Regular.eot");
+    src: local("Julee Regular"), local("Julee-Regular"),
+      url("Julee-Regular.eot?#iefix") format("embedded-opentype"),
+      url("Julee-Regular.woff2") format("woff2"),
+      url("Julee-Regular.woff") format("woff"),
+      url("Julee-Regular.ttf") format("truetype"),
+      url("Julee-Regular.svg#Julee-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Ga Maamli";
+    src: url("GaMaamli-Regular.eot");
+    src: local("Ga Maamli Regular"), local("GaMaamli-Regular"),
+      url("GaMaamli-Regular.eot?#iefix") format("embedded-opentype"),
+      url("GaMaamli-Regular.woff2") format("woff2"),
+      url("GaMaamli-Regular.woff") format("woff"),
+      url("GaMaamli-Regular.ttf") format("truetype"),
+      url("GaMaamli-Regular.svg#GaMaamli-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Itim";
+    src: url("Itim-Regular.eot");
+    src: local("Itim"), local("Itim-Regular"),
+      url("Itim-Regular.eot?#iefix") format("embedded-opentype"),
+      url("Itim-Regular.woff2") format("woff2"),
+      url("Itim-Regular.woff") format("woff"),
+      url("Itim-Regular.ttf") format("truetype"),
+      url("Itim-Regular.svg#Itim-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Indie Flower";
+    src: url("IndieFlower.eot");
+    src: local("Indie Flower"), local("IndieFlower"),
+      url("IndieFlower.eot?#iefix") format("embedded-opentype"),
+      url("IndieFlower.woff2") format("woff2"),
+      url("IndieFlower.woff") format("woff"),
+      url("IndieFlower.ttf") format("truetype"),
+      url("IndieFlower.svg#IndieFlower") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Handjet";
+    src: url("Handjet-Regular.eot");
+    src: local("Handjet Regular"), local("Handjet-Regular"),
+      url("Handjet-Regular.eot?#iefix") format("embedded-opentype"),
+      url("Handjet-Regular.woff2") format("woff2"),
+      url("Handjet-Regular.woff") format("woff"),
+      url("Handjet-Regular.ttf") format("truetype"),
+      url("Handjet-Regular.svg#Handjet-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Matemasie";
+    src: url("Matemasie-Regular.eot");
+    src: local("Matemasie Regular"), local("Matemasie-Regular"),
+      url("Matemasie-Regular.eot?#iefix") format("embedded-opentype"),
+      url("Matemasie-Regular.woff2") format("woff2"),
+      url("Matemasie-Regular.woff") format("woff"),
+      url("Matemasie-Regular.ttf") format("truetype"),
+      url("Matemasie-Regular.svg#Matemasie-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Merienda";
+    src: url("Merienda-Regular.eot");
+    src: local("Merienda Regular"), local("Merienda-Regular"),
+      url("Merienda-Regular.eot?#iefix") format("embedded-opentype"),
+      url("Merienda-Regular.woff2") format("woff2"),
+      url("Merienda-Regular.woff") format("woff"),
+      url("Merienda-Regular.ttf") format("truetype"),
+      url("Merienda-Regular.svg#Merienda-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Luckiest Guy";
+    src: url("LuckiestGuy-Regular.eot");
+    src: local("Luckiest Guy Regular"), local("LuckiestGuy-Regular"),
+      url("LuckiestGuy-Regular.eot?#iefix") format("embedded-opentype"),
+      url("LuckiestGuy-Regular.woff2") format("woff2"),
+      url("LuckiestGuy-Regular.woff") format("woff"),
+      url("LuckiestGuy-Regular.ttf") format("truetype"),
+      url("LuckiestGuy-Regular.svg#LuckiestGuy-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Marck Script";
+    src: url("MarckScript-Regular.eot");
+    src: local("Marck Script"), local("MarckScript-Regular"),
+      url("MarckScript-Regular.eot?#iefix") format("embedded-opentype"),
+      url("MarckScript-Regular.woff2") format("woff2"),
+      url("MarckScript-Regular.woff") format("woff"),
+      url("MarckScript-Regular.ttf") format("truetype"),
+      url("MarckScript-Regular.svg#MarckScript-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Lobster";
+    src: url("Lobster-Regular.eot");
+    src: local("Lobster Regular"), local("Lobster-Regular"),
+      url("Lobster-Regular.eot?#iefix") format("embedded-opentype"),
+      url("Lobster-Regular.woff2") format("woff2"),
+      url("Lobster-Regular.woff") format("woff"),
+      url("Lobster-Regular.ttf") format("truetype"),
+      url("Lobster-Regular.svg#Lobster-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Libre Baskerville";
+    src: url("LibreBaskerville-Regular.eot");
+    src: local("Libre Baskerville"), local("LibreBaskerville-Regular"),
+      url("LibreBaskerville-Regular.eot?#iefix") format("embedded-opentype"),
+      url("LibreBaskerville-Regular.woff2") format("woff2"),
+      url("LibreBaskerville-Regular.woff") format("woff"),
+      url("LibreBaskerville-Regular.ttf") format("truetype"),
+      url("LibreBaskerville-Regular.svg#LibreBaskerville-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Silkscreen";
+    src: url("Silkscreen-Regular.eot");
+    src: local("Silkscreen Regular"), local("Silkscreen-Regular"),
+      url("Silkscreen-Regular.eot?#iefix") format("embedded-opentype"),
+      url("Silkscreen-Regular.woff2") format("woff2"),
+      url("Silkscreen-Regular.woff") format("woff"),
+      url("Silkscreen-Regular.ttf") format("truetype"),
+      url("Silkscreen-Regular.svg#Silkscreen-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Six Caps";
+    src: url("SixCaps.eot");
+    src: local("Six Caps"), local("SixCaps"),
+      url("SixCaps.eot?#iefix") format("embedded-opentype"),
+      url("SixCaps.woff2") format("woff2"), url("SixCaps.woff") format("woff"),
+      url("SixCaps.ttf") format("truetype"),
+      url("SixCaps.svg#SixCaps") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Shadows Into";
+    src: url("ShadowsIntoLight.eot");
+    src: local("Shadows Into Light"), local("ShadowsIntoLight"),
+      url("ShadowsIntoLight.eot?#iefix") format("embedded-opentype"),
+      url("ShadowsIntoLight.woff2") format("woff2"),
+      url("ShadowsIntoLight.woff") format("woff"),
+      url("ShadowsIntoLight.ttf") format("truetype"),
+      url("ShadowsIntoLight.svg#ShadowsIntoLight") format("svg");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Mr Dafoe";
+    src: url("MrDafoe-Regular.eot");
+    src: local("Mr Dafoe Regular"), local("MrDafoe-Regular"),
+      url("MrDafoe-Regular.eot?#iefix") format("embedded-opentype"),
+      url("MrDafoe-Regular.woff2") format("woff2"),
+      url("MrDafoe-Regular.woff") format("woff"),
+      url("MrDafoe-Regular.ttf") format("truetype"),
+      url("MrDafoe-Regular.svg#MrDafoe-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Shrikhand";
+    src: url("Shrikhand-Regular.eot");
+    src: local("Shrikhand Regular"), local("Shrikhand-Regular"),
+      url("Shrikhand-Regular.eot?#iefix") format("embedded-opentype"),
+      url("Shrikhand-Regular.woff2") format("woff2"),
+      url("Shrikhand-Regular.woff") format("woff"),
+      url("Shrikhand-Regular.ttf") format("truetype"),
+      url("Shrikhand-Regular.svg#Shrikhand-Regular") format("svg");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Updock";
+    src: url("Updock-Regular.eot");
+    src: local("Updock Regular"), local("Updock-Regular"),
+      url("Updock-Regular.eot?#iefix") format("embedded-opentype"),
+      url("Updock-Regular.woff2") format("woff2"),
+      url("Updock-Regular.woff") format("woff"),
+      url("Updock-Regular.ttf") format("truetype"),
+      url("Updock-Regular.svg#Updock-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Spicy Rice";
+    src: url("SpicyRice-Regular.eot");
+    src: local("Spicy Rice"), local("SpicyRice-Regular"),
+      url("SpicyRice-Regular.eot?#iefix") format("embedded-opentype"),
+      url("SpicyRice-Regular.woff2") format("woff2"),
+      url("SpicyRice-Regular.woff") format("woff"),
+      url("SpicyRice-Regular.ttf") format("truetype"),
+      url("SpicyRice-Regular.svg#SpicyRice-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Pacifico";
+    src: url("Pacifico-Regular.eot");
+    src: local("Pacifico Regular"), local("Pacifico-Regular"),
+      url("Pacifico-Regular.eot?#iefix") format("embedded-opentype"),
+      url("Pacifico-Regular.woff2") format("woff2"),
+      url("Pacifico-Regular.woff") format("woff"),
+      url("Pacifico-Regular.ttf") format("truetype"),
+      url("Pacifico-Regular.svg#Pacifico-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Nanum Brush Script";
+    src: url("NanumBrush.eot");
+    src: local("Nanum Brush Script"), local("NanumBrush"),
+      url("NanumBrush.eot?#iefix") format("embedded-opentype"),
+      url("NanumBrush.woff2") format("woff2"),
+      url("NanumBrush.woff") format("woff"),
+      url("NanumBrush.ttf") format("truetype"),
+      url("NanumBrush.svg#NanumBrush") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Nanum Pen";
+    src: url("NanumPen.eot");
+    src: local("Nanum Pen"), local("NanumPen"),
+      url("NanumPen.eot?#iefix") format("embedded-opentype"),
+      url("NanumPen.woff2") format("woff2"), url("NanumPen.woff") format("woff"),
+      url("NanumPen.ttf") format("truetype"),
+      url("NanumPen.svg#NanumPen") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Rammetto One";
+    src: url("RammettoOne-Regular.eot");
+    src: local("Rammetto One Regular"), local("RammettoOne-Regular"),
+      url("RammettoOne-Regular.eot?#iefix") format("embedded-opentype"),
+      url("RammettoOne-Regular.woff2") format("woff2"),
+      url("RammettoOne-Regular.woff") format("woff"),
+      url("RammettoOne-Regular.ttf") format("truetype"),
+      url("RammettoOne-Regular.svg#RammettoOne-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Reenie Beanie";
+    src: url("ReenieBeanie.eot");
+    src: local("Reenie Beanie"), local("ReenieBeanie"),
+      url("ReenieBeanie.eot?#iefix") format("embedded-opentype"),
+      url("ReenieBeanie.woff2") format("woff2"),
+      url("ReenieBeanie.woff") format("woff"),
+      url("ReenieBeanie.ttf") format("truetype"),
+      url("ReenieBeanie.svg#ReenieBeanie") format("svg");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Rowdies";
+    src: url("Rowdies-Regular.eot");
+    src: local("Rowdies Regular"), local("Rowdies-Regular"),
+      url("Rowdies-Regular.eot?#iefix") format("embedded-opentype"),
+      url("Rowdies-Regular.woff2") format("woff2"),
+      url("Rowdies-Regular.woff") format("woff"),
+      url("Rowdies-Regular.ttf") format("truetype"),
+      url("Rowdies-Regular.svg#Rowdies-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Pirata One";
+    src: url("PirataOne-Regular.eot");
+    src: local("Pirata One"), local("PirataOne-Regular"),
+      url("PirataOne-Regular.eot?#iefix") format("embedded-opentype"),
+      url("PirataOne-Regular.woff2") format("woff2"),
+      url("PirataOne-Regular.woff") format("woff"),
+      url("PirataOne-Regular.ttf") format("truetype"),
+      url("PirataOne-Regular.svg#PirataOne-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Permanent Marker";
+    src: url("PermanentMarker-Regular.eot");
+    src: local("Permanent Marker Regular"), local("PermanentMarker-Regular"),
+      url("PermanentMarker-Regular.eot?#iefix") format("embedded-opentype"),
+      url("PermanentMarker-Regular.woff2") format("woff2"),
+      url("PermanentMarker-Regular.woff") format("woff"),
+      url("PermanentMarker-Regular.ttf") format("truetype"),
+      url("PermanentMarker-Regular.svg#PermanentMarker-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Sacramento";
+    src: url("Sacramento-Regular.eot");
+    src: local("Sacramento"), local("Sacramento-Regular"),
+      url("Sacramento-Regular.eot?#iefix") format("embedded-opentype"),
+      url("Sacramento-Regular.woff2") format("woff2"),
+      url("Sacramento-Regular.woff") format("woff"),
+      url("Sacramento-Regular.ttf") format("truetype"),
+      url("Sacramento-Regular.svg#Sacramento-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Satisfy";
+    src: url("Satisfy-Regular.eot");
+    src: local("Satisfy Regular"), local("Satisfy-Regular"),
+      url("Satisfy-Regular.eot?#iefix") format("embedded-opentype"),
+      url("Satisfy-Regular.woff2") format("woff2"),
+      url("Satisfy-Regular.woff") format("woff"),
+      url("Satisfy-Regular.ttf") format("truetype"),
+      url("Satisfy-Regular.svg#Satisfy-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Rubik Bubbles";
+    src: url("RubikBubbles-Regular.eot");
+    src: local("Rubik Bubbles Regular"), local("RubikBubbles-Regular"),
+      url("RubikBubbles-Regular.eot?#iefix") format("embedded-opentype"),
+      url("RubikBubbles-Regular.woff2") format("woff2"),
+      url("RubikBubbles-Regular.woff") format("woff"),
+      url("RubikBubbles-Regular.ttf") format("truetype"),
+      url("RubikBubbles-Regular.svg#RubikBubbles-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Seaweed Script";
+    src: url("SeaweedScript-Regular.eot");
+    src: local("Seaweed Script"), local("SeaweedScript-Regular"),
+      url("SeaweedScript-Regular.eot?#iefix") format("embedded-opentype"),
+      url("SeaweedScript-Regular.woff2") format("woff2"),
+      url("SeaweedScript-Regular.woff") format("woff"),
+      url("SeaweedScript-Regular.ttf") format("truetype"),
+      url("SeaweedScript-Regular.svg#SeaweedScript-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Sansita";
+    src: url("Sansita-Regular.eot");
+    src: local("Sansita Regular"), local("Sansita-Regular"),
+      url("Sansita-Regular.eot?#iefix") format("embedded-opentype"),
+      url("Sansita-Regular.woff2") format("woff2"),
+      url("Sansita-Regular.woff") format("woff"),
+      url("Sansita-Regular.ttf") format("truetype"),
+      url("Sansita-Regular.svg#Sansita-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Rubik Mono One";
+    src: url("RubikMonoOne-Regular.eot");
+    src: local("Rubik Mono One Regular"), local("RubikMonoOne-Regular"),
+      url("RubikMonoOne-Regular.eot?#iefix") format("embedded-opentype"),
+      url("RubikMonoOne-Regular.woff2") format("woff2"),
+      url("RubikMonoOne-Regular.woff") format("woff"),
+      url("RubikMonoOne-Regular.ttf") format("truetype"),
+      url("RubikMonoOne-Regular.svg#RubikMonoOne-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Just Another Hand";
+    src: url("JustAnotherHand-Regular.eot");
+    src: local("Just Another Hand Regular"), local("JustAnotherHand-Regular"),
+      url("JustAnotherHand-Regular.eot?#iefix") format("embedded-opentype"),
+      url("JustAnotherHand-Regular.woff2") format("woff2"),
+      url("JustAnotherHand-Regular.woff") format("woff"),
+      url("JustAnotherHand-Regular.ttf") format("truetype"),
+      url("JustAnotherHand-Regular.svg#JustAnotherHand-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Knewave";
+    src: url("Knewave-Regular.eot");
+    src: local("Knewave"), local("Knewave-Regular"),
+      url("Knewave-Regular.eot?#iefix") format("embedded-opentype"),
+      url("Knewave-Regular.woff2") format("woff2"),
+      url("Knewave-Regular.woff") format("woff"),
+      url("Knewave-Regular.ttf") format("truetype"),
+      url("Knewave-Regular.svg#Knewave-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Oooh Baby";
+    src: url("OoohBaby-Regular.eot");
+    src: local("Oooh Baby Regular"), local("OoohBaby-Regular"),
+      url("OoohBaby-Regular.eot?#iefix") format("embedded-opentype"),
+      url("OoohBaby-Regular.woff2") format("woff2"),
+      url("OoohBaby-Regular.woff") format("woff"),
+      url("OoohBaby-Regular.ttf") format("truetype"),
+      url("OoohBaby-Regular.svg#OoohBaby-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Tiny5";
+    src: url("Tiny5-Regular.eot");
+    src: local("Tiny5 Regular"), local("Tiny5-Regular"),
+      url("Tiny5-Regular.eot?#iefix") format("embedded-opentype"),
+      url("Tiny5-Regular.woff2") format("woff2"),
+      url("Tiny5-Regular.woff") format("woff"),
+      url("Tiny5-Regular.ttf") format("truetype"),
+      url("Tiny5-Regular.svg#Tiny5-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Grenze Gotisch";
+    src: url("GrenzeGotisch-Regular.eot");
+    src: local("Grenze Gotisch Regular"), local("GrenzeGotisch-Regular"),
+      url("GrenzeGotisch-Regular.eot?#iefix") format("embedded-opentype"),
+      url("GrenzeGotisch-Regular.woff2") format("woff2"),
+      url("GrenzeGotisch-Regular.woff") format("woff"),
+      url("GrenzeGotisch-Regular.ttf") format("truetype"),
+      url("GrenzeGotisch-Regular.svg#GrenzeGotisch-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Norican";
+    src: url("Norican-Regular.eot");
+    src: local("Norican Regular"), local("Norican-Regular"),
+      url("Norican-Regular.eot?#iefix") format("embedded-opentype"),
+      url("Norican-Regular.woff2") format("woff2"),
+      url("Norican-Regular.woff") format("woff"),
+      url("Norican-Regular.ttf") format("truetype"),
+      url("Norican-Regular.svg#Norican-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Racing Sans One";
+    src: url("RacingSansOne-Regular.eot");
+    src: local("Racing Sans One"), local("RacingSansOne-Regular"),
+      url("RacingSansOne-Regular.eot?#iefix") format("embedded-opentype"),
+      url("RacingSansOne-Regular.woff2") format("woff2"),
+      url("RacingSansOne-Regular.woff") format("woff"),
+      url("RacingSansOne-Regular.ttf") format("truetype"),
+      url("RacingSansOne-Regular.svg#RacingSansOne-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Calligraffitti";
+    src: url("Calligraffitti-Regular.eot");
+    src: local("Calligraffitti Regular"), local("Calligraffitti-Regular"),
+      url("Calligraffitti-Regular.eot?#iefix") format("embedded-opentype"),
+      url("Calligraffitti-Regular.woff2") format("woff2"),
+      url("Calligraffitti-Regular.woff") format("woff"),
+      url("Calligraffitti-Regular.ttf") format("truetype"),
+      url("Calligraffitti-Regular.svg#Calligraffitti-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Allerta Stencil";
+    src: url("AllertaStencil-Regular.eot");
+    src: local("Allerta Stencil Regular"), local("AllertaStencil-Regular"),
+      url("AllertaStencil-Regular.eot?#iefix") format("embedded-opentype"),
+      url("AllertaStencil-Regular.woff2") format("woff2"),
+      url("AllertaStencil-Regular.woff") format("woff"),
+      url("AllertaStencil-Regular.ttf") format("truetype"),
+      url("AllertaStencil-Regular.svg#AllertaStencil-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
