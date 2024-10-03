@@ -1,45 +1,51 @@
 <!DOCTYPE html>
 <html lang="en" translate="no">
-  <head>
-    <meta charset="utf-8" />
-    <script defer type="module" src="/main.js"></script>
-    <link rel="stylesheet" href="styles/main.css" />
-    <link rel="stylesheet" href="fonts/fonts.css" />
-    <title>TechNarts Frontend Challenge: Font Fountain</title>
-  </head>
 
-  <body>
-    <header class="header">
-      <h1>Font Fountain</h1>
-    </header>
+<head>
+  <meta charset="utf-8" />
+  <script defer type="module" src="/main.js"></script>
+  <script defer type="module" src="glyph-rounding.js"></script>
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="fonts/fonts.css" />
+  <title>Fontify</title>
+</head>
 
-    <main>
-      <div class="firstPartDiv">
-        <div class="fontPreDiv">
-          <textarea
-            id="fontPreviewText"
-            placeholder="Enter your text"
-            rows="1"
-          ></textarea>
-          <div class="slider-container">
-            <input
-              type="range"
-              id="fontSizeSlider"
-              min="10"
-              max="50"
-              value="16"
-            />
-          </div>
-        </div>
+<body>
+  <header class="header">
+    <img src="fontify.png" width="225px">
+  </header>
+
+  <main>
+    <div class="firstPartDiv">
+      <div class="fontPreDiv">
+
+        <textarea style="font-family: Fredoka ;" id="fontPreviewText" placeholder="Enter your text" rows="1"></textarea>
+
         <div id="fontText"></div>
       </div>
 
-      <div class="secontPartDiv">
-        <div class="fontListDiv">
+    </div>
+    </div>
+
+    <div class="secondPartDiv">
+
+      <div class="fontListDiv">
+        <div class="listDiv">
           <h2>Font List</h2>
-          <div class="fontGrid" id="fontGrid"></div>
+          <div class="slider-container">
+            <h4>Preview Size</h4>
+            <input type="range" id="fontSizeSlider" min="10" max="50" value="16" />
+          </div>
         </div>
+        <div class="firstPart">
+          <div class="fontCategories"><button class="category-btn active" id="allBtn">All</button><button class="category-btn" id="recentBtn">Recent</button></div>
+          <div class="fontGrid" id="fontGrid"></div>
+          <div class="fontGrid" style="display: none;" id="fontGridRecent"></div>
+        </div>
+
       </div>
-    </main>
-  </body>
+    </div>
+  </main>
+</body>
+
 </html>

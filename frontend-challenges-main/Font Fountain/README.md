@@ -136,3 +136,11 @@ Nevertheless, your submission will still be considered without it, if it is the 
 
 ## Your Notes
 
+### Why Fontify?
+In English, "-ify" is a suffix that means to make or to become. Users can shape the words they write as they wish. That's why I chose a name that uses this suffix.
+
+### Why does the font collection include these fonts?
+I wanted to include fonts that users can use in any area they wish. This font group contains both plain and decorative fonts, allowing users to choose the font they like.
+
+### Why is the placeholder text Hello World?
+Every person opens their eyes to a world when they are born. Similarly, when programmers start coding, they write "Hello World" on the screen. That's why I wanted to greet the users of the site with the phrase "Hello World."
