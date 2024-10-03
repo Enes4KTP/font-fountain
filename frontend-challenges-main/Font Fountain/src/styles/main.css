@@ -9,10 +9,9 @@ body {
   justify-content: center;
   align-items: center;
   height: 100px;
-  color: rgb(132, 132, 209);
   position: sticky;
   top: 0;
-  background-color: rgb(180, 180, 245);
+  background-color: rgb(250, 166, 39);
   border-bottom-left-radius: 145px;
   border-bottom-right-radius: 145px;
 }
@@ -96,13 +95,14 @@ main {
 }
 
 .fontItem:hover {
-  background-color: rgb(218, 218, 231);
+  background-color: rgb(252, 222, 178);
   cursor: pointer;
 }
 
 .fontName {
   font-size: 14px;
-  color: rgb(132, 132, 209);
+  font-weight: 600;
+  color:  rgb(252, 152, 3);
 }
 
 .fontExample {
@@ -146,10 +146,10 @@ main {
 }
 
 .category-btn:hover {
-  background-color: rgb(218, 218, 231);
+  background-color: rgb(252, 222, 178);
 }
 
 .category-btn.active {
   color: #000000;
-  background-color: rgb(180, 180, 245);
+  background-color: rgb(248, 187, 96);
 }
