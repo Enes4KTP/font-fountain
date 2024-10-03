@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: "Fredoka";
+
 }
 
 .header {
@@ -11,7 +12,7 @@ body {
   color: rgb(132, 132, 209);
   position: sticky;
   top: 0;
-  background-color: #f0eeee;
+  background-color: rgb(180, 180, 245);
   border-bottom-left-radius: 145px;
   border-bottom-right-radius: 145px;
 }
@@ -95,7 +96,7 @@ main {
 }
 
 .fontItem:hover {
-  background-color: rgba(211, 210, 210, 0.6);
+  background-color: rgb(218, 218, 231);
   cursor: pointer;
 }
 
@@ -145,10 +146,10 @@ main {
 }
 
 .category-btn:hover {
-  background-color: #ebebeb;
+  background-color: rgb(218, 218, 231);
 }
 
 .category-btn.active {
   color: #000000;
-  background-color: rgb(173, 173, 211);
+  background-color: rgb(180, 180, 245);
 }
