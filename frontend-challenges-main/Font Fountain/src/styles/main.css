@@ -1,7 +1,6 @@
 body {
   margin: 0;
   font-family: "Fredoka";
-
 }
 
 .header {
@@ -147,4 +146,45 @@ main {
 .category-btn.active {
   color: #000000;
   background-color: rgb(248, 187, 96);
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  input[type='range'] {
+    overflow: hidden;
+    width: 80px;
+    -webkit-appearance: none;
+    background-color: #adadab;
+  }
+  
+  input[type='range']::-webkit-slider-runnable-track {
+    height: 10px;
+    -webkit-appearance: none;
+    color: rgb(248, 187, 96);
+    margin-top: -1px;
+  }
+  
+  input[type='range']::-webkit-slider-thumb {
+    width: 10px;
+    -webkit-appearance: none;
+    height: 10px;
+    cursor: ew-resize;
+    background: rgb(139, 85, 4);
+    box-shadow: -80px 0 0 80px rgb(248, 187, 96);
+  }
+
+}
+/** FF*/
+input[type="range"]::-moz-range-progress {
+background-color: rgb(248, 187, 96);
+}
+input[type="range"]::-moz-range-track {  
+background-color: #adadab;
+}
+/* IE*/
+input[type="range"]::-ms-fill-lower {
+background-color: rgb(248, 187, 96);
+}
+input[type="range"]::-ms-fill-upper {  
+background-color: #adadab;
 }
